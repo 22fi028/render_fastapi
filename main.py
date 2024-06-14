@@ -43,7 +43,7 @@ def index():
         </head>
         <body>
             <h1>Hello World!</h1>
-            <p>Pythonから接続</p>
+            <p>Pythonから接続しました</p>
         </body>
     </html>
     """
