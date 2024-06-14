@@ -48,3 +48,7 @@ def index():
     </html>
     """
     return HTMLResponse(content=html_content, status_code=200)
+
+@app.post("/product")
+async def new_naming(product):
+    return {"response": f"サーバです。{product}のお届けです！ご利用ありがとうございます。"}
